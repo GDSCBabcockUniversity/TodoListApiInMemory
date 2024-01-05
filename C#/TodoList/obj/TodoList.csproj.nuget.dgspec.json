@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\goldo\\source\\repos\\TodoList\\TodoList\\TodoList.csproj": {}
+    "C:\\Users\\DAMMY\\Source\\Repos\\TodoListApiInMemory\\C#\\TodoList\\TodoList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\goldo\\source\\repos\\TodoList\\TodoList\\TodoList.csproj": {
+    "C:\\Users\\DAMMY\\Source\\Repos\\TodoListApiInMemory\\C#\\TodoList\\TodoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\goldo\\source\\repos\\TodoList\\TodoList\\TodoList.csproj",
+        "projectUniqueName": "C:\\Users\\DAMMY\\Source\\Repos\\TodoListApiInMemory\\C#\\TodoList\\TodoList.csproj",
         "projectName": "TodoList",
-        "projectPath": "C:\\Users\\goldo\\source\\repos\\TodoList\\TodoList\\TodoList.csproj",
-        "packagesPath": "C:\\Users\\goldo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\goldo\\source\\repos\\TodoList\\TodoList\\obj\\",
+        "projectPath": "C:\\Users\\DAMMY\\Source\\Repos\\TodoListApiInMemory\\C#\\TodoList\\TodoList.csproj",
+        "packagesPath": "C:\\Users\\DAMMY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAMMY\\Source\\Repos\\TodoListApiInMemory\\C#\\TodoList\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\goldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DAMMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,16 +43,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -60,15 +54,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
